@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmi calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>BMI CALCULATOR</h1>
+    </div>
+    <div class="container">
+       
+        <div id="wt">
+            <label for=""><input type="range" min="0" max="150" name="weight" id="weight" oninput="cal()"></label>
+            <span id="wtval">20 kg</span>
+        </div>
+        
+        <div id="ht">
+            <label for=""><input type="range" min="0" max="250" value="150" id="height" onclick="cal()"></label>
+            <span id="htval">150 cm</span>
+        </div>
+        <div class="view">
+            <h2 id="result"></h2>
+            <h3 id="category"></h3>
+            
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

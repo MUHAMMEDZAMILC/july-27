@@ -20,12 +20,12 @@ function cal(){
     else if(bml>=25 && bml<=29.9)
     {
         category="Over weight";
-        result.style.color='#ffee00'
+        result.style.color=orange;
     }
     else
     {
         category="Obese";
-        result.style.color='ff1500';
+        result.style.color=red;
     }
     document.getElementById('category').textContent=category;
 }
